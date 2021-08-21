@@ -7,6 +7,6 @@ items:
     name: pods-low
   spec:
     hard:
-      cpu: "5"
-      memory: 10Gi
+      requests.cpu: "1m"
+      requests.memory: "1m"
       pods: "1"
